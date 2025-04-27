@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+    font-size: xxx-large;
     margin-top: 10px;
     margin-bottom: 10px;
     color: antiquewhite;
@@ -24,6 +25,7 @@ h2 {
     margin-bottom: 20px;
     color:cornsilk;
     text-shadow: black 1px 0 10px;
+    
 }
 
 #save-el {
