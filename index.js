@@ -9,7 +9,14 @@ function increment() {
 
 function save() {
     let countStr = count + " - "
-    saveEl.textContent += countStr
+    saveEl.textContent += " " + countStr
     countEl.textContent = 0
     count = 0
+}
+
+function reset() {
+
+    count = 0;
+    countEl.textContent = 0;
+    saveEl.textContent = "Previous entries: ";
 }

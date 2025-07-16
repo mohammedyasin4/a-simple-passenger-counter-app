@@ -1,8 +1,8 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("trian_PNG101346.png");
-    background-size: cover, 50%;
+    background-size: cover, 35%;
     background-repeat: no-repeat;
-    font-family:  'Helvetica Neue';
+    font-family: 'Helvetica Neue';
     font-weight: bolder;
     text-align: center;
     background-position: center, center;
@@ -11,27 +11,42 @@ body {
     text-transform: uppercase;
 }
 
+#container {
+    background-color: none;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    align-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
-    font-size: xxx-large;
     margin-top: 10px;
     margin-bottom: 10px;
     color: antiquewhite;
-    text-shadow: black 1px 0 10px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
-    color:cornsilk;
+    color: cornsilk;
     text-shadow: black 1px 0 10px;
-    
+
 }
 
 #save-el {
     color: antiquewhite;
     text-shadow: black 1px 0 10px;
+    margin-top: inherit;
 }
+
 button {
     border: solid black;
     padding-top: 10px;
@@ -46,10 +61,13 @@ button {
 
 #increment-btn {
     background: darkred;
-    
+
 }
 
 #save-btn {
     background: rgb(42, 207, 42);
 }
 
+#reset-btn {
+    background-color: rgb(59, 59, 59);
+}
